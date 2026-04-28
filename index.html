@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Precy & Babi Premium 💜💙</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>💜 Precy & Babi Premium 💙</h1>
+<p>Made with love by Babet ✨</p>
+
+<!-- LOGIN -->
+<div class="card" id="loginBox">
+<h2>🔐 Enter Password</h2>
+<input id="passwordInput" type="password" placeholder="Enter password...">
+<button onclick="unlock()">Unlock 💖</button>
+<p id="unlockMsg"></p>
+<p id="hint"></p>
+</div>
+
+<!-- GAME AREA -->
+<div id="gameArea" class="hidden">
+
+<!-- MENU -->
+<div class="card">
+<h2>💫 Menu</h2>
+<button onclick="showSection('mainSec')">Main</button>
+<button onclick="showSection('funSec')">Fun</button>
+<button onclick="showSection('loveSec')">Love</button>
+<button onclick="showSection('vipSec')">VIP</button>
+</div>
+
+<!-- MAIN -->
+<div id="mainSec" class="section">
+<p id="typing"></p>
+<div class="card">
+<h2>⏳ Countdown</h2>
+<p id="countdown"></p>
+</div>
+
+<div class="card">
+<h2>💞 Relationship Timer</h2>
+<p id="relTimer"></p>
+</div>
+</div>
+
+<!-- FUN -->
+<div id="funSec" class="section hidden">
+<div class="card">
+<h2>🎡 Spin Wheel</h2>
+<div id="wheel">🎯</div>
+<button onclick="spinWheel()">SPIN</button>
+<p id="wheelResult"></p>
+</div>
+
+<div class="card">
+<h2>🎟️ Scratch</h2>
+<button onclick="scratch()">Scratch</button>
+<p id="scratchResult">██████</p>
+</div>
+
+<div class="card">
+</html>
